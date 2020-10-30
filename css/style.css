@@ -1,0 +1,438 @@
+/* Stating Styling NavBar */
+.navbar{
+    height:60px;
+    background-color: #ffd500;
+    border:none;    
+    margin-bottom: 20px;
+}
+.option-box{
+    position: fixed;
+    top:100px;
+    left:0;
+    z-index: 10000;
+}
+.option-box .color-option{
+    float:left;
+    background-color:#333;
+    color:#fff;
+    padding:10px;
+    width:200px;
+    display: none;
+}
+.option-box  i,
+.option-box .color-option h4{
+    color:#fff;
+}
+.option-box  i{
+    cursor: pointer;
+}
+.option-box .color-option ul li
+{
+    width:20px;
+    height: 20px;
+    display: inline-block;
+    margin-top:3px;
+    cursor: pointer;
+    background-color:#fff;
+}
+html{overflow-x: hidden; }
+.navbar .navbar-brand img{
+    border-radius: 50%;
+    margin-top: 0px !important;
+    width:55px;
+    height:55px;
+}
+.navbar .navbar-brand{padding:0;}
+.navbar-brand, .navbar > .container-fluid .navbar-brand {margin-left:none !important;}
+.active{background: none}
+.navbar-inverse .navbar-nav > li > a{color:#632A7B;}
+/* Starting Media Query */
+/* Extra Small Screen */
+@media(max-width:767px){
+    .navbar-collapse.in{overflow: unset;color:#632A7B;}
+    .in{height: 100px;}
+    .navbar-nav{background-color: #333;float:right;}
+    .navbar-inverse .navbar-nav > li > a{color:#ffd500;}
+    .navbar-inverse .navbar-nav > li > a:hover{color:#632A7B;}
+    .res ul li{display: none;}
+    .foooter{max-height: 1700px;}
+    .res ul span{
+        float:right;
+        color:#fff;
+        font-size: 200%;
+        cursor: progress;
+    }
+    .Lo{margin-bottom: 20px;}
+}
+/* Starting Small Screen */
+@media(min-width:768px) and (max-width:991px){
+    .navbar ul{background-color: transparent;}
+    .icons{text-align: center;}   
+}
+/* Large Screen */
+@media(min-width:1000px){
+    .navbar ul{background-color: transparent;}   
+}
+/* Starting Background Section */
+.main{
+    background-image: url("../Images/0.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    max-width:100%;
+    min-height: 600px;
+    margin-bottom: 40px;
+}
+.back
+{
+    background: rgba(2, 2, 2, .7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    max-width:100%;
+    min-height:600px;
+    margin-bottom: 40px;
+}
+.back .in h1 ,
+ .back .in h4{
+    color:#fff;padding-top:100px;margin-bottom: 50px;
+}
+.back .in h4{font-size: 36px}
+.main .back .for{
+    background-color: rgba(41, 39, 39, 0.6);
+    max-width:100%;
+    min-height: 100px;
+    max-height: 600px;
+    padding-bottom: 50px;
+}
+.main .back .for p{
+    text-align: left;
+    color:white;
+    font-size:17px;
+    margin-left:12px;
+}
+.main .back .for input
+{
+    height:55px;
+    margin-left: 10px;
+    text-align: left;
+    font-size:17px;
+}
+.main .back .for button{height:55px;margin-left:10px;}
+@media(min-width:768) and (max-width:991){
+    .main .back .for{width:auto;}   
+}
+.features{background-color: #fff;width:100%;min-height: 150px;}
+i{color:#632A7B;display: block;}
+.features .feat p{
+    display: inline;
+    font-size:23px;
+    position: relative;
+    top:-9px;
+    left:3px
+}
+.features .feat{margin-bottom: 20px;}
+.breaker{height:20px; color:#ffd500;width:20%;}
+.order{height:500px;margin-bottom: 70px;}
+.order img{background-size: cover;margin-bottom: 40px;}
+@media(max-width:767px){
+    .order h5 ,.order p{text-align: center;}
+    .icons{text-align: center;}
+}
+@media(min-width:768px) and (max-width:991px){
+    .order h5 ,.order p{text-align: center;}
+}
+@media(min-width:992px) and (max-width:999px){
+    .order img{margin-top:190px;}
+    .icons{text-align: center;}
+}
+.order h5{font-size:150%;margin-bottom: 10px;margin-top:0}
+.order p{line-height: 1.9;}
+.order img{background-color: #fff;}
+.test {padding-top:50px;padding-bottom: 50px;}
+.test h1{font-weight: bold;margin-bottom: 20px;}
+.test .lead{line-height: 2em;margin-bottom: 10px}
+.test span{font-size: 18px;font-weight: bold;}
+.test .carousel-inner{min-height: 160px;}
+.test .carousel-indicators {
+    position: static;
+    width:100%;
+    margin-left:auto;
+    padding-top:20px;
+    margin-top:5px;
+}
+.test .carousel-indicators li
+{
+    text-indent: 0;
+    width:80px;
+    height: 80px;
+    opacity: 0.4;
+    border :2px solid #fff;
+    border-radius: 50%;
+    margin:5px;
+    overflow:hidden;
+    margin-top:5px;
+    -webkit-transition:all ease 1s;
+    -o-transition: all ease 1s;
+    -moz-transition: all ease 1s;
+    transition: all ease 1s;
+}
+.test .carousel-indicators li.active
+{
+    width:80px;
+    height: 80px;
+    opacity:1;
+    background: none;
+}
+/* Start testimonail Section */
+/* start price section  */
+.footer{
+    width:100%;
+    max-height:1600px;
+    background-color:#632a7b;
+    padding-bottom: 36px;
+}
+.footer .res h4 ,.footer .res a{color:#fff;line-height: 2;}
+.footer .res .icons li{margin-top:20px;margin-bottom: 20px;}
+.footer .res a:hover{text-decoration: underline;}
+.footer .res ul li:last-of-type{margin-top: 20px;}
+.footer .res .icons img{width:28px;height: 28px;}
+.link{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+    border-bottom: 1px solid #000;
+}
+.link a{text-decoration: none;color:#fff;}
+.link a:hover{color:#ffd500;}
+.trans{background-color: transparent;color:#fff;border:2px solid #fff;}
+.support{color:#fff;margin-top:60px;margin-bottom: 5px;}
+.yell{
+    float:right;
+    background-color: #ffd500;
+    position: relative;
+    top:-33px;
+    right:8px;
+    width:170px;
+    height: 33px;
+    text-align: center;
+    border:1px solid #ffd500;
+    border-radius: 4%;
+}
+.yell p{margin-top:8px;}
+.yell span{
+    float:left;
+    background-color: #eeb200;;
+    width:20%;
+    height: 33px;
+    padding-top:1px
+}
+.yell span i{color:#fff;}
+.sec{padding-right:20%;padding-left:20%;}
+.login{
+    background-color:#fff;
+    max-width:550px;
+    height:600px;
+    position: absolute;
+    top:10%;
+    z-index:3333;
+    padding:5%;
+    border-radius: 2%;
+    display: none;
+    text-align: center;
+    border-bottom: 2px solid #333;
+    box-shadow: 5px 10px 5px 10px #888888;
+}
+.login button{
+    background-color:#fff;
+    width:90%;
+    border:2px solid #999;
+    height:40px;
+    box-shadow: 2px red;
+    margin-bottom: 30px;
+    padding-left: -10px;
+    position: relative;
+}
+.login button:last-of-type{
+    background-color:#5777B9;
+    width:90%;
+    border:2px solid #999;
+    height:40px;
+    box-shadow: 2px red;
+}
+.login button:last-of-type:hover{background-color:#5777B9;}
+.login p{font-size: 120%;font-weight: 400;color:black}
+.login button:hover{background-color:#fff;}
+.login i{color:blue;}
+.login .mail,
+.login .pass{
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    height:40px;
+    margin-bottom: 30px;
+    border-bottom:2px solid #DDD;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+}
+.login .mail,
+.login .pass
+.singIn .mail,
+.singIn .pass{
+    border-bottom:2px solid #DDD;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+}
+.login input{
+    border-bottom:2px solid #DDD;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+}
+.shPas{
+    float:right;
+    position: relative;
+    top:-56px;
+    left:-35px;
+    cursor: progress;
+}
+.ch{
+    float:left;
+    margin-left:20px;
+    width:15px;
+    height:15px;
+    border:4px solid #222;
+    margin-bottom: 20px;
+}
+.keep{float:left;margin-left:5px}
+.forget a{float:right;text-decoration: none;color:rgb(136, 123, 123);}
+.forget a:hover{color:#ffd500;}
+.Lo{margin-top:30px;}
+.ast0,
+.ast1{
+    position: relative;
+    top: -50px;
+    float: right;
+    right: 45px;
+}
+.custom0,
+.custom1{
+    display: none;
+    color: greenyellow;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    border:2px solid rgb(235, 194, 194);
+    border-radius: 5px;
+}
+#check{margin-bottom: 40px;}
+.singIn{
+    display:none;
+    background-color:#fff;
+    max-width:550px;
+    height:500px;
+    position: absolute;
+    top:10%;
+    z-index:33333;
+    padding:5%;
+    border-radius: 2%;
+    text-align: center; 
+    box-shadow: 5px 10px 5px 10px #888888;
+}
+.singIn .ana{
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    height:40px;
+    margin-bottom: 30px;
+    border-bottom:2px solid #DDD;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    position: relative;
+    left:600px;
+    display: none;
+}
+.singIn input:focus{
+    width:374px;
+    border-bottom:2px solid #DDD;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+}
+.idea{
+    color:red;
+    float:right;
+    font-size: 200%;
+    cursor: progress;
+}
+.navbar ul .Account_Parent{position: absolute;top:40px;right:10px}
+.navbar ul  .Account_Parent{
+    max-height:300px;
+    width:210px;
+    background-color: #fff;
+    padding:30px;
+    margin-top:30px;
+}
+.navbar ul  .Account_Parent i{margin-bottom: 25px;}
+.navbar ul  .Account tr{padding:30px;}
+.navbar ul  .Account td li a{
+    display: inline;
+    position: relative;
+    top:-11px;
+    left:5px;
+    text-decoration: none;
+    color: #212121;
+}
+.Account_Parent,
+.Account{display: none;}
+.forget_Password{
+    width:450px;
+    height:316px;
+    position: absolute;
+    background-color: #fff;
+    top:200px;
+    right:500px;
+    z-index: 44444;
+    border:2px solid #555;
+    box-shadow: 5px 10px 5px 10px #888888;
+    border-radius: 6px;
+    padding-right:10px; 
+    display: none; 
+}
+@media(max-width:767px){
+    .forget_Password{right:20px;height: 326px;}
+    .login{right:1px;}
+    .singIn{right:10px;}
+}
+@media(min-width:768px) and (max-width:991px)
+{
+    .forget_Password{right:189px;}
+    .login{right:140px;box-shadow: none;}
+    .singIn{right:140px;}
+}
+@media(min-width:992px) and (max-width:999px)
+{
+    .forget_Password{right:295px;}
+}
+.forget_Password h4{display: inline;color:#632a7b;font-size: 140%;}
+.forget_Password p{margin-left:15px;font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 420;}
+.forget_Password span{float:right;font-size:150%;cursor: pointer;}
+.ins{
+    width:100%;
+    height:50px;
+    background-color: green;
+    padding-top:10px; 
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom: 30px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #999;
+    margin-bottom: 40px;
+}

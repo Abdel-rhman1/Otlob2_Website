@@ -1,0 +1,804 @@
+.bac{
+    background-size: cover;
+    max-width:100%;
+    min-height: 900px;
+    background: rgba(2, 2, 2, .82);
+}
+.color{
+    background-image: url("../Images/20200114-en-ae-press-food-waste-nme-emea.jpg");
+    /* url("../Images/0.jpg") ; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width:100%;
+    min-height: 900px;
+}
+.option-box  .gear-check{padding:5px;color:#fff;cursor: pointer;}
+.navbar{
+    background-color: transparent;
+    padding-top:20px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color:#fff;
+    font-size:150%;
+}
+.Vendor{
+    border:2px solid #ffdd00;
+    border-radius: 10%;
+}
+.content{
+    position: relative;
+    top:20px;
+}
+.content .text h1{
+    color:#fff;
+    font-size: 400%;
+    line-height: 1.7;
+    font-weight: bold;
+    letter-spacing: 1.2;
+}
+.content .text h2{
+    color:#fff;
+    letter-spacing: 1.4;
+}
+.content .form{
+    background-color: #fff;
+    min-height:500px;
+    max-height: 800px;
+    min-width:450px;
+    border-radius: 10px;
+    padding-top:8px;
+    overflow: hidden;
+   padding:8px 40px 0 40px;
+}
+.pers{
+    display: block;
+}
+.content .form h1{
+    color:#632A7B;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.form .first{
+     border-bottom: 5px solid #632A7B;
+}
+.form .first span{
+    text-transform: capitalize;
+    font-size:160%;
+    width:100%;
+    cursor: pointer;
+}
+.form .second span{
+    text-transform: capitalize;
+    font-size:160%;
+    width:100%;
+    color:#AAA;
+    cursor: pointer;
+}
+label{
+    display: block;
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size:120%;
+    text-align: left;  
+}
+.store{
+    display: none;
+}
+.form input{
+    width:100%;
+    height:48px;
+    border-radius: 8px;
+    padding:0 14px;
+}
+.Requried1,
+.Requried2,
+.Requried3,
+.Requried4,
+.Requried5,
+.Requried6,
+.Requried7,
+.Requried8
+{
+    display: none;
+    color:red;
+}
+.form input:focus{
+    border:2px solid #632A7B
+}
+.form button{
+    width:100%;
+    height:48px;
+    border-radius:14px;
+    text-align: center;
+    background-color: #632A7B;
+    color:#FFF;
+    margin-top:20px;
+    font-size:130%;
+    margin-bottom: 10px;
+}
+.form select{
+    width:100%;
+    height:48px;
+    border-radius: 8px; 
+    padding:0 14px; 
+    font-size: 113%;
+    font-weight: 360;
+}
+.form select option{
+    padding:10px 10px;
+}
+.Benefits h2 ,
+.Bene h2,
+.how h2,
+.join h2{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 300%;
+    font-weight: 700;
+}
+.join h2{
+    margin-top:110px;
+    font-size: 350%;
+    word-spacing: 1.7;
+}
+i{
+    color:#632A7F;
+}
+.sep{
+    /* margin-top:60px; */
+    position: relative;
+    top:-69px;
+}
+.sep1{
+    position: relative;
+    top:-20px;
+}
+.join .sep{
+    top:60px;
+}
+.Bene{
+    background-color:#EEE;
+    min-height: 450px;
+    margin-top:130px;
+    padding-bottom: 40px;
+}
+.Bene h2{
+    margin-top:0px;
+}
+.benefit img{
+    display: block;
+    margin: 0px auto 0px;
+    width: 100%;
+}
+.benefit h3{
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.benefit p{
+    font-size:150%;
+    font-weight: 400;
+    word-spacing: 1.2;
+    line-height: 1.7;
+}
+.benefit .cont{
+    padding:0 20px;
+    border-bottom: 6px solid #632A7B;
+    background-color: #fff;
+    position: relative;
+    top:-20px;
+    padding:20px;
+    min-height: 270px;
+    margin-bottom: 100px;
+}
+.feet{
+    text-align: left;
+    padding-top:50px
+}
+.how img{
+    width: auto;
+    height: 161px;
+    display: block;
+    margin: 0px auto 40px;
+}
+.footer img{
+    margin-left:100px;
+}
+.btn-primary{
+    background-color:#632A7B;
+    width:400px;
+    height:50px;
+    border-radius: 9px;
+    font-size:140%;
+    margin-top:40px;
+    margin-bottom:50px ;
+}
+.btn-primary:hover{
+    background-color:#632A7B;
+}
+.footer{
+    background-color: rgb(31, 37, 50);
+    width:100%;
+    max-height: 400px;
+    min-height: 350px;
+    color:#fff;
+}
+@media(max-width:786px)
+{
+    .icons li{
+        text-align:center;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .icons{
+        text-align: center;
+        margin-right: 150px;
+        margin-top:20px;
+        margin-left:-50px;
+    }
+    .footer{
+        max-height: 800px;
+        min-height: 500px;
+        text-align: center;
+    }
+}
+@media(min-width:768px) and (max-width:991px)
+{
+    .icons li{
+        text-align:center;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .icons{
+        text-align: center;
+        margin-right: 110px;
+        margin-top:20px;
+        margin-left:120px;
+    }
+    .footer{
+        max-height: 800px;
+        min-height: 500px;
+        text-align: center;
+    }
+   
+}
+.foot{
+    margin-top:60px;  
+}
+.foot h4{
+    margin-bottom: 30px;
+}
+.foot li a{
+    text-decoration: none;
+    color:white;
+    font-size:105%;
+}
+.footer li{
+    text-align: none;
+}
+hr{
+    font-weight: 700;
+    color:rgb(121, 114, 114);
+    margin-right:100px;
+    margin-left:40px;
+}
+.copy span{
+    color:#DDD;
+}
+.icons img{
+    width:32px;
+    height: 32px;
+}
+.bac-A {
+    background-color: #ffdd00;
+    height:70px;
+    padding-top:-9px;
+}
+.bac-A .navbar-brand,.bac-A li{
+    margin-top:-11px;
+}
+.navbar-inverse .navbar-nav > li > a.a{
+    font-size:115%;
+    color:#632A7F;
+}
+.About{
+    min-height:500px;
+    max-height:1080px;
+    border-left:2px solid #ddd;
+    border-right:2px solid #ddd;
+    border-top:2px solid #ddd;
+    border-bottom:2px solid #ddd;
+    padding-top:20px;
+    margin-top:4px;
+}
+.About h4{
+    display: inline;
+    margin-left:8px;
+    position: relative;
+    top:-2px;
+}
+.About .conten {
+    padding-top:20px;
+    margin-bottom:20px;
+}
+.About .conten p{
+    line-height: 1.9;
+    font-size: 110%;
+    word-spacing: 1.5;
+}
+.footer2{
+    min-height: 150px;
+    background-color: #632A7F;
+    margin-top:70px;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem!important;
+    padding-bottom: 5rem!important;
+    border-bottom: 1px solid #632A7F;
+}
+.footer2 p{
+    margin-left:180px;
+    margin-bottom:10px;
+    color:#fff;
+}
+@media(max-width:768px)
+{
+    .cli{
+        color:#fff;
+        position: relative;
+        top:-50px;
+        left:-150px;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .link a{
+        display: none;
+    }
+    .footer2 p{
+        text-align: center;
+        margin-left:-40px;
+    }
+    .footer2 p span{
+        text-align: center;
+        margin-left:-40px;
+    }
+}
+@media(min-width:768px) and (max-width:991px)
+{
+    .link a{
+        display: block;
+    }
+}
+.footer2 span{
+    float:right;
+    margin-right:50px;
+}
+.status{
+    margin-top:40px;
+    text-align: center;
+}
+.status .text{
+    width:150px;
+    text-align: center;
+    background-color: #EEE;
+    height:30px;
+    margin-top: 25px;
+    line-height: 30px;
+}
+.bor{
+    border-bottom: 2px solid #EEE;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+.bor .heading .spans{
+    margin-top:20px;
+    /* display: block; */
+}
+.bor .heading span{
+    color:#632A7F;
+    cursor: pointer;
+    font-size:95%;
+    margin-bottom: -20px;
+}
+.bor .heading .two2{
+    float:right;
+    margin-right:30px;
+
+}
+.bor .text2{
+    width:19%;
+    display: inline;
+    height:40px;
+    line-height: 40px;
+    background-color: #fff;
+    border: none;
+    border:1px solid #EEE;
+}
+.bor .text3{
+    width:8.6%;
+    display: inline;
+    height:40px;
+    line-height: 40px;
+    background-color: #fff;
+    border: none;
+    border:1px solid #EEE;
+}
+.textarea textarea,
+.form textarea
+{
+    width:100%;
+    height:120px;
+    margin-top:20px;
+
+}
+.form textarea{
+    margin-bottom: 20px;
+    padding:15px;
+}
+.btn-success{
+    width:220px;
+    height:35px;
+    line-height:35px;
+    margin-top:30px;
+    text-transform: uppercase;
+    color:#fff
+}
+.form-group{
+    padding-left: 20px;
+    margin:0;
+}
+.form-group input{
+    margin-top:20px;
+    background-color: none;
+}
+.form-group label{
+    text-align: left;
+}
+input[type="file"] {
+    border:none;
+    position: relative;
+    left:-15px;
+}
+.one{
+    width:100px;
+    background-color: #fff;
+    border-radius: 5px;
+    border:1px solid #00a53c;
+    color:#00a53c;
+    text-transform: capitalize;
+    height: 43px;
+    box-shadow: sienna;
+    font-size: 140%;
+    font-weight: 500;
+}
+.two{
+    width:100px;
+    background-color: #00a53c;
+    border-radius: 5px;
+    border:1px solid #fff;
+    color:#fff;
+    text-transform: capitalize;
+    height: 43px;
+    box-shadow: sienna;
+    font-size: 140%;
+    font-weight: 500;
+}
+.two:hover{
+    background-color: #178917;
+    color:#fff;   
+}
+i{
+    color:#632A7B;
+    margin-bottom: 10px;
+
+}
+.joindiv{
+    border-bottom: 2px solid #632A7B;
+    margin-left:19px;
+}
+.Write{
+    margin-left:19px;
+    margin-top:20px;
+    line-height: 1.7;
+}
+.Write h5{
+    font-size: 140%;
+    font-weight: 450;
+    margin-bottom: 10px;
+}
+.Write p{
+    color:#999;
+    line-height: 2.1;
+}
+.Write p span{
+    color:green;
+    margin-left:1px;
+    margin-right: 1px;
+}
+.join {
+    border-bottom: 2px solid #DDD;
+}
+.join:hover{
+    border-bottom: 2px solid #632A7B;
+    margin-left:1px;
+}
+.form{
+    text-align: left;
+}
+.form input,
+.form label,
+.form textarea
+{
+    margin-left:19px;
+}
+.form .btn-success
+{
+    width:120px;
+    height:35px;
+    margin-bottom: 20px;
+    color:#fff;
+    background-color:#00a53c;
+} 
+.form .btn-success:hover{
+    background-color:#178917;
+}
+.Ahm h3{
+    text-align: left;
+    /* margin-top:20px; */
+}
+.Ahm{
+    background-color: #f8f8f8;
+    padding-left:5px;
+    padding-top:5px;
+    margin-top:10px;
+}
+.Ahm p{
+    color:#555;
+}
+.Ahm i{
+    text-align: left;
+}
+@media(max-width:768px){
+    
+}
+.breadcrumb{
+    background-color:#fff;
+    /* color:#632A7F */
+}
+.About .conten ul{
+    margin-left:20px;
+    border-right:2px solid #DDD;
+}
+.About .conten ul li{
+    margin-bottom: 9px;
+    padding:12px;
+}
+.About .conten ul li a{
+    text-decoration: none;
+    color:#646464;
+    font-size:120%;
+}
+.About .conten ul:checked li{
+    border-left:2px solid #632A7F;
+}
+.gender1,
+.gender2
+{
+    margin-top:20px;
+    
+    border:1px solid #ddd;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+}
+.gender1{
+    /* margin-left:13px; */
+}
+.gender2{
+    border-left:none;
+}
+.form-group .this{
+    border:2px solid #ddd;
+    height:34px;
+
+}
+.form-group .this{
+    position: relative;
+    top:20px;
+    left:-15px;
+}
+.chan{
+    font-size:95%;
+    text-align: center;
+    position: relative;
+    top:20px;
+    color:#00A53C;
+}
+.chan:hover{
+    color:#ffd500;
+}
+.Account_Infor{
+display: none;
+}
+.Saved{
+    display: none;
+}
+.Saved .btn-success{
+    width:150px;
+    height: 40px;
+    margin-top:1px;
+    line-height: 29px;
+    background-color: #00A53C;
+    text-transform: capitalize;
+}
+.Saved .btn-success:hover{
+    background-color: #178917;
+    text-transform: capitalize;
+}
+.order2,
+.visa,
+.mony{
+    display: none;
+}
+.changePassword{
+    display: none;
+}
+.changeM,
+.changePassword{
+    min-width:345px;
+    max-width:600px;
+    height:316px;
+    position: absolute;
+    background-color: #fff;
+    top:50px;
+    right:450px;
+    z-index: 44444;
+    border:2px solid #555;
+    box-shadow: 5px 10px 5px 10px #888888;
+    border-radius: 6px;
+    height:326px;
+    right:1px;
+    left:1px;
+    top:-100px;
+    padding-right:4px; 
+}
+.changeM{
+    display: none;
+}
+.changeM h3,
+.changePassword h3{
+    display: inline;
+    /* margin-top:10px; */
+}
+.changeM span,
+.changePassword span{
+    float:right;
+    /* margin-top:10px; */
+    font-size:150%;
+    cursor: pointer;
+}
+.ins{
+    width:100%;
+    max-width: 600px;
+    height:50px;
+    background-color: green;
+    padding-top:10px; 
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom: 30px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #999;
+    margin-bottom: 0px;
+}
+.Account_Infor label{
+    font-size: 90%;
+}
+.Account_Infor input{
+    margin-bottom: -20px;
+    box-sizing: border-box;
+}
+#check3,
+#check4,
+#check5{
+    position: relative;
+    top:-26px;
+    left:340px;
+}
+@media(max-width:767px)
+{
+    .form-control[disabled], fieldset[disabled] .form-control{
+        margin-bottom: 3px;
+    }
+    .Account_Infor label{
+        margin-top:30px;
+    }
+    .this{
+        display: none;
+    }
+    input[type="date"] ,.gender1 ,.gender2{
+        margin-top:0px;
+    }
+    input[type="date"]{
+        margin-bottom: 10px;
+    }
+    .marg{
+        margin-top:30px;
+        border-top:2px solid #ddd;
+    }
+    .changeM,
+    .changePassword{
+    top:-200px;
+    /* background-color: green; */
+    }
+    #check3,
+    #check4,
+    #check5{
+        left:260px;
+    }
+}
+@media(min-width:768px) and (max-width:991px)
+{
+    .marg{
+        border-top:2px solid #ddd;
+        margin-top:30px;
+    }
+    .changeM,
+    .changePassword{
+    top:-200px;
+    left:65px;
+    }
+    #check3,
+    #check4,
+    #check5{
+        left:310px;
+    }
+    .status img{
+        display: block;
+        margin-left:48%;
+
+    } 
+    .About{
+        max-height: 1800px;
+    }
+    .one{
+        margin-bottom: 20px;
+        margin-top:10px;
+    }
+}
+@media(max-width:767px)
+{
+    .changeM, .changePassword{
+        right:20px;
+        width:500px;
+    }
+    .status img{
+        display: block;
+        margin-left:45%;
+    } 
+    .About{
+        max-height: 2000px;
+    }
+    .one{
+        margin-bottom: 20px;
+        margin-top:10px;
+    }
+}
+@media(min-width:992px) and (max-width:999px)
+{
+
+}
+.About2{
+    max-height: 10000px;
+}
+.About2 .collapse{
+    max-height: 600px;
+}
+#terms_accordion .panel-body {
+    text-align: justify;
+}
+.Write p span{
+    cursor: pointer;
+    
+}
